@@ -27,6 +27,7 @@ h4,
 h5 {
   color: black;
   font-size: 30px;
+  padding-left: 535px;
 }
 video,
 audio {
@@ -43,7 +44,7 @@ input {
 }
 img {
   width: 380px; /* My image will be 380px. */
-  padding-left: 550px; /* My image will be in the center page. */
+  padding-left: 535px; /* My image will be in the center page. */
 }
 br {
   padding: 0; /* My br padding is 0. */

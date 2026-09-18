@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Nvidia Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="forms.html">Forms</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="services.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Nvidia's Form Feedback page</h1>
+        <div>
+          <!-- Beginning of the form element -->
+          <form action="/submit" method="post">
+            <!-- Label and text input field -->
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+            />
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+            <br />
+
+            <!-- Label and email input field -->
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@example.com"
+            />
+            <br />
+            <!-- Label and subject input field -->
+            <label for="Subject">Subject:</label>
+            <input
+              type="text"
+              id="Subject"
+              name="Subject"
+              placeholder="Enter the subject"
+            />
+
+            <br />
+
+            <!-- Textarea for additional message -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="60"></textarea>
+
+            <br />
+            <!-- Submit button to submit the form -->
+            <input type="submit" value="Submit" />
+
+            <!-- Reset button to reset the form fields -->
+            <input type="reset" value="Reset" />
+
+            <br />
+          </form>
+        </div>
+        <footer>
+          <address>
+            <p>2788 San Tomas Expressway, Santa Clara, CA 95051</p>
+          </address>
+          <p>NVIDIA Social Media Links At the bottom</p>
+          <p>
+            <a href="https://x.com/nvidia">X</a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/nvidia/">Instagram</a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/nvidiaeurope/">Facebook</a>
+          </p>
+          <!--In the footer will belong a p and the copy rigth of jonathan cruz produtions -->
+          <p>&copy; Copyright 2026 NVIDIA Company.</p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
