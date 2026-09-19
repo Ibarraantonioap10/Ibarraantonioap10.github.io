@@ -7,29 +7,39 @@
     <link rel="stylesheet" href="main.css" />
     <!--This is where my styles begin. -->
     <style>
-      html {
-        padding: 0; /* My html padding is 0. */
+      /* General styling using a class */
+      .feature-card {
+        border: 2px solid #7f8c8d; /* Grayish-blue */
+        padding: 20px; /* Adding some space inside the card */
+        margin: 20px; /* Adding some space outside the card */
+        background-color: gold; /* blue backgraound colorfor the class  */
       }
-      head {
-        color: black; /* My head color is black ic color. */
+      /* Styling h2 within a class */
+      .feature-card h2 {
+        font-size: 20px; /* 20px is the default font size */
+        margin-bottom: 10px; /* Adding some space below the heading */
+        color: #2c3e50; /* Deeo blue text color */
       }
-      meta {
-        color: black; /* My meta color is black in color. */
+      .feature-card p {
+        margin-bottom: 10px; /* Adding some space below the paragraph */
+        color: blue; /* Grayish-blue text color */
       }
-      title {
-        padding: 0; /* My tittle padding is 0. */
+      #special-feature {
+        background-color: #fde3a7; /* Light gold background color for the id speacial feature */
+        border-color: #f39c12; /* Gold border color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
       }
-      link {
-        padding: 0; /* My link padding is 0. */
+      a {
+        display: inline-block; /* Making the link a block element */
+        color: white; /* Bright blue text color */
+        text-decoration: none; /* Removing the underline */
+        padding: 5px 10px; /* Adding some space inside the link */
+        border: 1px solid #3498bd; /* Bright blue border color */
+        transition: all 0.3s ease; /* Adding a transition */
       }
-      body {
-        color: black; /* My body is black in color. */
-      }
-      p {
-        font-size: 16px; /* 16px is the default font size */
-        color: black; /* Grayish-blue */
-        margin-bottom: 12px; /* Adding some space below the paragragh */
-        background-color: gray; /* Adding gray to my background-coor */
+      a:hover {
+        background-color: blue; /* bright blue background color */
+        color: white; /* WHite text color */
       }
     </style>
   </head>
@@ -139,7 +149,7 @@
           <p>
             &copy; Copyright 2026 NVIDIA Company.
             <a href="https://marketplace.nvidia.com/en-us/" target="_blank"
-              >Nvidia official website</a
+              >Nvidia Desktop market website</a
             >
           </p>
         </footer>
