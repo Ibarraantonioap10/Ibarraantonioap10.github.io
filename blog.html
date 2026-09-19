@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- This part of the code is to show how to use the elemnets and what goes inside correctly. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <!-- I will use links so that you can see my css code and my index code when clicking on the link. -->
+    <link rel="stylesheet" href="main.css" />
+    <!--This is where my styles begin. -->
+    <style>
+      html {
+        padding: 0; /* My html padding is 0. */
+      }
+      head {
+        color: black; /* My head color is black ic color. */
+      }
+      meta {
+        color: black; /* My meta color is black in color. */
+      }
+      title {
+        padding: 0; /* My tittle padding is 0. */
+      }
+      link {
+        padding: 0; /* My link padding is 0. */
+      }
+      body {
+        color: black; /* My body is black in color. */
+      }
+      p {
+        font-size: 16px; /* 16px is the default font size */
+        color: black; /* Grayish-blue */
+        margin-bottom: 12px; /* Adding some space below the paragragh */
+        background-color: gray; /* Adding gray to my background-coor */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- In the header content I will show what codes go inside. -->
+      <nav>
+        <!-- I will show you the list of the names. -->
+        <ul class="menu">
+          <li><a href="index.html">Index</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="desktops.html">Desktops</a></li>
+          <li><a href="graphics-cards.html">Graphics-Cards</a></li>
+          <li><a href="monitors.html">Monitors</a></li>
+          <li><a href="forms.html">Forms</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+      <h1>
+        -Here in this blog you'll find NVIDIA company Video, audio and Picturs
+        see how everyone is using NVIDIA'S Ai and its products-
+      </h1>
+    </header>
+    <main>
+      <section>
+        <!-- main content typically goes here like a photo. -->
+        <!-- what goea inside the second div is h2 and a image followed by a paragragh. -->
+        <div>
+          <h2>Main HeadQuarters</h2>
+          <img src="images/MainHQ.png" alt="NVIDIA Headquarters" />
+          <p class="feature-card">
+            <!-- This is where my p paragraghs begin. -->
+            Here in NVIDIA we welcome everyone from a company that started from
+            nothng to almost going into bankruptcy thanks to the people from the
+            past and today the commpany wouldn't have been nothing without you
+            guys and our teams here at the company. Due to this company grinding
+            for perfection and excellence it couldn't have been more alive and
+            known for what it is today thanks to the CO Founders and the CEO we
+            know what exactly everyone is going through with our great
+            leadership we can gather together evolve,learn and over come
+            challenging barriers.
+          </p>
+        </div>
+      </section>
+      <!-- main content typically goes here like a photo. -->
+      <section id="photos">
+        <!-- example of a single div set and what goes insidel like a h3 and the image followed by a paragragh.-->
+        <!-- Heading for the vidio section -->
+        <h3>NVIDIA Video with Audio Control</h3>
+        <div>
+          <!-- The 'contols' attribute adds video controls, like play, pause, and volume -->
+          <video width="320" height="240" controls>
+            <!-- Source for the vedio file -->
+            <!-- The 'src' atrribute specifies the path to the video file -->
+            <source src="media/video.mp4" type="video/mp4" />
+          </video>
+          <audio id="audio-video" controls>
+            <source src="media/audio.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+          <!-- Fallback content in case the video isn't supported -->
+          <p>
+            Here is a video of a NVIDIA community and how they work together to
+            help you with your needs have the best experience to grow and learn.
+          </p>
+        </div>
+      </section>
+      <section>
+        <!-- what goes in the third div is h4 and a image followed by a paragragh. -->
+        <div>
+          <h4>NVIDIA Studio server room</h4>
+          <img src="images/blog1.png" alt="Studio server room" />
+          <p class="feature-card" id="special-feature">
+            <!-- This is where my p paragraghs begin. -->
+            The NVIDIA Studio server room is where the fun is you can learn how
+            to guide yourself and learn how to fully operate Ai foundations,
+            like speed, Modern data platforms, development framework, Advanced
+            networking, how to embed security and confidently adopt new
+            solutions that will help you along any path not only will this help
+            you grow but will show you how to lead any group in the future.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div>
+          <!-- what goes in the fifth div is h5 and a image followed by a paragragh. -->
+          <h5>Ai module technology Team groups</h5>
+          <img src="images/blog2.png" alt="Ai module technology Team groups" />
+          <p id="speacial-feature">
+            <!-- This is where my p paragraghs begin. -->
+            Ai module technology Team groups will show you how to evolove your
+            project without creating chaos by detecting fraud this is about
+            addressing business realities and helping those in need. With the
+            new module AI this can help complete projects and show you new ways
+            on how to overcome challenges in your workspace enabling rapid issue
+            resolution. This new module can help people in science, engineering
+            and cyber security.
+          </p>
+        </div>
+        <footer>
+          <address>
+            <p>2788 San Tomas Expressway, Santa Clara, CA 95051</p>
+          </address>
+          <p>NVIDIA Social Media Links At the bottom</p>
+          <p>
+            <a href="https://x.com/nvidia">X</a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/nvidia/">Instagram</a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/nvidiaeurope/">Facebook</a>
+          </p>
+          <!--In the footer will belong a p and the copy rigth of NVIDIA COMPANY Website link -->
+          <p>
+            &copy; Copyright 2026 NVIDIA Company.
+            <a href="https://marketplace.nvidia.com/en-us/" target="_blank"
+              >Nvidia official website</a
+            >
+          </p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
