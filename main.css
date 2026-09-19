@@ -22,7 +22,9 @@ header {
 /* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   color: black;
   font-size: 30px;
   padding-left: 15px;
