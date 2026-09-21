@@ -16,8 +16,8 @@ link {
 body {
   color: black; /* My body is black in color. */
   background-color: green; /* green body background color */
-  padding: 0%;
-  width: 0%;
+  max-width: 100%;
+  height: auto;
 }
 header {
   color: black; /* My header is black in color. */
@@ -45,8 +45,6 @@ ul li {
 img {
   width: 380px; /* My image will be 380px. */
   padding-left: 535px; /* My image will be in the center page. */
-  padding: 0%;
-  max-width: 0%;
 }
 /* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
 h1,
