@@ -43,8 +43,8 @@ ul li {
   color: blue; /* Grayish-blue text color */
 }
 img {
-  width: 380px; /* My image will be 380px. */
-  padding-left: 535px; /* My image will be in the center page. */
+  width: 50%; /* My image will be 380px. */
+  padding-left: 40%; /* My image will be in the center page. */
 }
 /* My h1, h2, h3, h4, h5, are green in color for visible eye sight. */
 h1,
@@ -87,7 +87,7 @@ a {
 video,
 audio {
   max-width: 150%; /* My video and audio will be in the center of the page. */
-  padding-left: 77%; /* My video audio padding-left is 77%. */
+  padding-left: 40%; /* My video audio padding-left is 77%. */
 }
 form {
   padding: 0; /* My form my padding is 0. */
