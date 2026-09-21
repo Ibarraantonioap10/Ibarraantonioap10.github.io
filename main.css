@@ -86,7 +86,8 @@ a {
 /* My video and audio padding is 575px. */
 video,
 audio {
-  padding-left: 575px; /* My video and audio will be in the center of the page. */
+  max-width: 150%; /* My video and audio will be in the center of the page. */
+  padding-left: 77%; /* My video audio padding-left is 77%. */
 }
 form {
   padding: 0; /* My form my padding is 0. */
