@@ -1,49 +1,12 @@
 <!doctype html>
-<!-- This part of the code is to show how to use the elemnets and what goes inside correctly. -->
+<!-- This part of the code is to show how to use the elements and what goes inside correctly. -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
+    <title>Blog page</title>
     <!-- I will use links so that you can see my css code and my index code when clicking on the link. -->
     <link rel="stylesheet" href="main.css" />
-    <!--This is where my styles begin. -->
-    <style>
-      /* General styling using a class */
-      .feature-card {
-        border: 2px solid #7f8c8d; /* Grayish-blue */
-        padding: 20px; /* Adding some space inside the card */
-        margin: 20px; /* Adding some space outside the card */
-        background-color: gold; /* blue backgraound colorfor the class  */
-      }
-      /* Styling h2 within a class */
-      .feature-card h2 {
-        font-size: 20px; /* 20px is the default font size */
-        margin-bottom: 10px; /* Adding some space below the heading */
-        color: #2c3e50; /* Deeo blue text color */
-      }
-      .feature-card p {
-        margin-bottom: 10px; /* Adding some space below the paragraph */
-        color: blue; /* Grayish-blue text color */
-      }
-      #special-feature {
-        background-color: blue; /* Light gold background color for the id speacial feature */
-        border-color: #f39c12; /* Gold border color */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow */
-      }
-      a {
-        display: inline-block; /* Making the link a block element */
-        color: white; /* Bright blue text color */
-        text-decoration: none; /* Removing the underline */
-        padding: 5px 10px; /* Adding some space inside the link */
-        border: 1px solid #3498bd; /* Bright blue border color */
-        transition: all 0.3s ease; /* Adding a transition */
-      }
-      a:hover {
-        background-color: blue; /* bright blue background color */
-        color: white; /* WHite text color */
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -64,41 +27,41 @@
         </ul>
       </nav>
       <h1>
-        -Here in this blog you'll find NVIDIA company Video, audio and Picturs
+        -Here in this blog you'll find NVIDIA company Video, audio and Pictures
         see how everyone is using NVIDIA'S Ai and its products-
       </h1>
     </header>
     <main>
       <section>
         <!-- main content typically goes here like a photo. -->
-        <!-- what goea inside the second div is h2 and a image followed by a paragragh. -->
+        <!-- what goes inside the second div is h2 and an image followed by a paragraph. -->
         <div>
           <h2>Main HeadQuarters</h2>
           <img src="images/MainHQ.png" alt="NVIDIA Headquarters" />
           <p class="feature-card">
-            <!-- This is where my p paragraghs begin. -->
+            <!-- This is where my paragraphs begin. -->
             Here in NVIDIA we welcome everyone from a company that started from
-            nothng to almost going into bankruptcy thanks to the people from the
-            past and today the commpany wouldn't have been nothing without you
-            guys and our teams here at the company. Due to this company grinding
-            for perfection and excellence it couldn't have been more alive and
-            known for what it is today thanks to the CO Founders and the CEO we
-            know what exactly everyone is going through with our great
-            leadership we can gather together evolve,learn and over come
+            nothing to almost going into bankruptcy thanks to the people from
+            the past and today the company wouldn't have been nothing without
+            you guys and our teams here at the company. Due to this company
+            grinding for perfection and excellence it couldn't have been more
+            alive and known for what it is today thanks to the CO Founders and
+            the CEO we know what exactly everyone is going through with our
+            great leadership we can gather together evolve,learn and over come
             challenging barriers.
           </p>
         </div>
       </section>
       <!-- main content typically goes here like a photo. -->
       <section id="photos">
-        <!-- example of a single div set and what goes insidel like a h3 and the image followed by a paragragh.-->
-        <!-- Heading for the vidio section -->
+        <!-- example of a single div set and what goes inside like a h3 and the image followed by a paragraph.-->
+        <!-- Heading for the video section -->
         <h3>NVIDIA Video with Audio Control</h3>
         <div>
-          <!-- The 'contols' attribute adds video controls, like play, pause, and volume -->
+          <!-- The 'controls' attribute adds video controls, like play, pause, and volume -->
           <video width="320" height="240" controls>
-            <!-- Source for the vedio file -->
-            <!-- The 'src' atrribute specifies the path to the video file -->
+            <!-- Source for the video file -->
+            <!-- The 'src' attribute specifies the path to the video file -->
             <source src="media/video.mp4" type="video/mp4" />
           </video>
           <audio id="audio-video" controls>
@@ -113,12 +76,12 @@
         </div>
       </section>
       <section>
-        <!-- what goes in the third div is h4 and a image followed by a paragragh. -->
+        <!-- what goes in the third div is h4 and an image followed by a paragraph. -->
         <div>
           <h4>NVIDIA Studio server room</h4>
           <img src="images/blog1.png" alt="Studio server room" />
           <p class="feature-card" id="special-feature">
-            <!-- This is where my p paragraghs begin. -->
+            <!-- This is where my p paragraphs begin. -->
             The NVIDIA Studio server room is where the fun is you can learn how
             to guide yourself and learn how to fully operate Ai foundations,
             like speed, Modern data platforms, development framework, Advanced
@@ -130,12 +93,12 @@
       </section>
       <section>
         <div>
-          <!-- what goes in the fifth div is h5 and a image followed by a paragragh. -->
+          <!-- what goes in the fifth div is h5 and an image followed by a paragraph. -->
           <h5>Ai module technology Team groups</h5>
           <img src="images/blog2.png" alt="Ai module technology Team groups" />
           <p id="speacial-feature">
-            <!-- This is where my p paragraghs begin. -->
-            Ai module technology Team groups will show you how to evolove your
+            <!-- This is where my p paragraphs begin. -->
+            Ai module technology Team groups will show you how to evolve your
             project without creating chaos by detecting fraud this is about
             addressing business realities and helping those in need. With the
             new module AI this can help complete projects and show you new ways
@@ -158,7 +121,7 @@
           <p>
             <a href="https://www.facebook.com/nvidiaeurope/">Facebook</a>
           </p>
-          <!--In the footer will belong a p and the copy rigth of NVIDIA COMPANY Website link -->
+          <!--In the footer will belong a p and the copyright of NVIDIA COMPANY Website link -->
           <p>
             &copy; Copyright 2026 NVIDIA Company.
             <a href="https://marketplace.nvidia.com/en-us/" target="_blank"
